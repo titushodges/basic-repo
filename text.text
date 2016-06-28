@@ -1,0 +1,9 @@
+git init
+git touch text.text
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/titushodges/basic-repo.git
+git push -u origin master
+git add .
+git commit -m "Added text"
+git push
